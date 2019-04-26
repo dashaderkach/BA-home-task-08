@@ -1,0 +1,145 @@
+*
+{
+	box-sizing: border-box;
+}
+body{
+	background: url('image/main.png');
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	min-height: 100%;
+}
+.card{
+	width: 700px;
+ 	height: 400px;
+	background-color: #152335;
+	margin: 50px auto;
+	padding: 35px;
+	position: relative;
+	border-radius: 15px;
+}
+
+.card__image-photo{
+ height: 80%;
+ text-align: center;
+}
+
+.card__image-photo img{
+  width:100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+  display: inline-block;
+}
+
+.card__image{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.card__coloritem{
+text-align: center;
+padding-top: 45px;
+}
+
+input[type=radio]{
+	visibility: hidden;
+}
+
+.circle {
+      width: 8px;
+      height: 8px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+.clear{
+	background-color: #ffffff;
+
+}
+.white{
+	background-color: #ffffff;
+}
+.red{
+	background-color: #f34b42;
+}
+
+.blue{
+	background-color: #25e7ee;
+}
+	
+.card__info{
+	float: right;
+	width: 40%;
+	height: 100%;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	padding-top: 20px;
+}
+.info__title{
+	font-size: 25px;
+	text-transform: capitalize;
+	text-align: left;
+	opacity: 0.7;
+}
+.info__style{
+	opacity: 0.5;
+}
+
+.сard-info__rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+}
+.сard-info__rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.сard-info__rating > span:hover:before,
+.сard-info__rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: #f7bf16;
+}
+
+.сard-info__quantity{
+	padding-top: 20px;
+	background: #152335;
+}
+.quantity__size{
+	width: 80px;
+	height: 30px;
+	background: #152335;
+	color: #fff;
+	opacity: 0.5;
+	
+}
+
+.quantity__qty{
+	width: 80px;
+	height: 30px;
+	background: #152335;
+	color: #fff;
+	opacity: 0.5;
+}
+
+.card-info__submit{
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.submit__item{
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	background: #283443;
+	color: #fff;
+	opacity: 0.5;
+}
+.logo{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
